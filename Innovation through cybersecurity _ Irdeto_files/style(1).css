@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'paperflite';
+  src:  url('fonts/paperflite.eot?a18872');
+  src:  url('fonts/paperflite.eot?a18872#iefix') format('embedded-opentype'),
+    url('fonts/paperflite.woff2?a18872') format('woff2'),
+    url('fonts/paperflite.ttf?a18872') format('truetype'),
+    url('fonts/paperflite.woff?a18872') format('woff'),
+    url('fonts/paperflite.svg?a18872#paperflite') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="paperflite-"], [class*=" paperflite-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'paperflite' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.paperflite-dislike:before {
+  content: "\e979";
+}
+.paperflite-like:before {
+  content: "\e97c";
+}
+.paperflite-thumbsdown-fill:before {
+  content: "\e974";
+}
+.paperflite-logo:before {
+  content: "\e96a";
+}
+.paperflite-sort .path1:before {
+  content: "\e958";
+}
+.paperflite-sort .path2:before {
+  content: "\e95b";
+  margin-left: -1em;
+}
+.paperflite-exclamatory:before {
+  content: "\e939";
+}
+.paperflite-continue:before {
+  content: "\e961";
+}
+.paperflite-popular:before {
+  content: "\e962";
+}
+.paperflite-recently-added:before {
+  content: "\e963";
+  color: #8995b5;
+}
+.paperflite-recommend:before {
+  content: "\e964";
+}
